@@ -1,0 +1,31 @@
+
+span.error {
+    color: red;
+}
+
+input.error {
+    background-color: red;
+}
+
+password.error {
+    background-color: red;
+}
+
+email.error {
+    background-color: red;
+}
+
+label.error {
+    color: red;
+}
+
+div.errors {
+    background-color: #ffcccc;
+    border: 2px solid red;
+}
+
+
+div.wrap {
+    text-align: center;
+}
+
