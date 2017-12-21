@@ -1,2 +1,2 @@
 # PersonalBlog
-This is huqijun's personal blog project
+This is [huqijun's blog](huqijun.org) project.
