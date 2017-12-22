@@ -17,6 +17,7 @@
 
 
 <a href="/about" > <s:message code="about" /></a>
+<a href="http://qijunhu.github.io"> <s:message code="oldVersion"></s:message> </a>
 
 
 
