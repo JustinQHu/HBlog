@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c014026-09b6-4715-a4ed-d848a5ecdc91" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/PersonalBlog.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/一些迷茫与思考.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/时间管理，轻重缓急.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/工作总结.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/了不起的盖茨比.md" afterPath="$PROJECT_DIR$/blog/了不起的盖茨比.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/工作总结.md" afterPath="$PROJECT_DIR$/blog/工作总结.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/home.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +23,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="420">
               <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding />
             </state>
@@ -816,7 +810,7 @@
       <workItem from="1514019578175" duration="1237000" />
       <workItem from="1514020851070" duration="462000" />
       <workItem from="1514021343733" duration="3219000" />
-      <workItem from="1514031818073" duration="1083000" />
+      <workItem from="1514031818073" duration="1525000" />
     </task>
     <task id="LOCAL-00001" summary="1. Redesign the UI of Blog and optimize the mobile use experience use Bootstrap.&#10;2. Add favicon to site.&#10;3. Add a navigate bar to site.&#10;4. chang the blog  directory location from   ~/src/main/resources/blog  to  ~/blog.&#10;5. delete all Jar files in ~/lib directory  and manage all libs by Maven in stead.&#10;">
       <created>1514023267950</created>
@@ -839,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514024269626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="optimize the mobile experience of detail page.">
+      <created>1514038432681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1514038432681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23537000" />
+    <option name="totallyTimeSpent" value="23979000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1291,7 +1292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="420">
           <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding />
         </state>
