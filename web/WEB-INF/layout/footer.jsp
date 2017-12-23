@@ -10,6 +10,6 @@
 <br/>
 <br/>
 <div class="wrap">
-    Copyright &copy;2017 huqijun.org, All Rights Reserved
+    <b>Copyright &copy;2017 huqijun.org, All Rights Reserved</b>
 </div>
 

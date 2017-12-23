@@ -8,4 +8,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-   ${blogDetail}
+<div class="wrap">
+   <h3> ${blogDetail.articleName}</h3>
+</div>
+<div class="inner">
+   ${blogDetail.htmlContent}
+</div>

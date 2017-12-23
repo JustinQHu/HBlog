@@ -26,5 +26,10 @@
                        value="/WEB-INF/views/about.jsp"/>
     </definition>
 
+    <definition name="pubaccout" extends="base">
+        <put-attribute name="body"
+                       value="/WEB-INF/views/pubaccout.jsp"/>
+    </definition>
+
 
 </tiles-definitions>

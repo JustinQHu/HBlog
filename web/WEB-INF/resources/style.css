@@ -24,8 +24,23 @@ div.errors {
     border: 2px solid red;
 }
 
-
 div.wrap {
     text-align: center;
 }
 
+div.outer {
+    margin: 5% 10% 2% 10%;
+}
+
+body.mobile div.outer {
+    margin: 4% 2% 2% 2%;
+}
+
+div.inner {
+    margin: 0% 14%;
+    padding: 2% 8% 4% 8%;
+}
+
+div.background {
+    background: url(/images/background.jpg) no-repeat;
+}
