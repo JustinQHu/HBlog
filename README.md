@@ -9,7 +9,7 @@ The project source code structure is as follows:
 
 --
 
- *  lib 
+ *  blog 
  *  src
     *  main
         *  com.hblog
