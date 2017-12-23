@@ -17,6 +17,7 @@
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title> <s:message code="blogTitle" /></title>
     <link rel="icon" href="/resources/favicon.ico">
+    <link rel="shortcut icon" href="/resources/favicon.ico">
 
     <!-- Bootstrap -->
     <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +33,15 @@
 </head>
 <body>
 
-    <div id="header">
+<script>
+    if (/mobile/i.test(navigator.userAgent) || /android/i.test(navigator.userAgent))
+    {
+        document.body.classList.add('mobile');
+    }
+</script>
+
+
+<div id="header">
         <tiles:insertAttribute name="header" />
     </div>
 

@@ -41,6 +41,11 @@ div.inner {
     padding: 2% 8% 4% 8%;
 }
 
+body.mobile div.inner {
+    margin: 0;
+    padding: 2% 4% 4% 4%;
+}
+
 div.background {
     background: url(/images/background.jpg) no-repeat;
 }
