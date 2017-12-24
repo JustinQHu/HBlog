@@ -36,6 +36,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="/about"> <s:message code="aboutThisSite"/> </a></li>
                         <li><a href=" <s:message code="OldBlogAddr" /> "   target="_blank"> <s:message code="oldVersion"/> </a></li>
+                        <li><a href=" <s:message code="CSDNAddr" /> "   target="_blank" >  <s:message code="CSDNBlog" />  </a> </li>
                     </ul>
                 </li>
 
