@@ -79,6 +79,7 @@
           <element id="module-output" name="HBlog" />
         </element>
       </element>
+      <element id="file-copy" path="$PROJECT_DIR$/web/sitemap.xml" />
     </root>
   </artifact>
 </component>
