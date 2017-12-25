@@ -5,5 +5,10 @@ package com.hblog.service;
  */
 public interface MakrdownToHtmlService {
 
+    /**
+     * convert markdown to html.
+     * @param markContent
+     * @return
+     */
     String markdownToHtml(String markContent);
 }

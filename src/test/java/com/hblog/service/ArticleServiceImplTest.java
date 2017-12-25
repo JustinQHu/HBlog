@@ -17,11 +17,11 @@ import java.util.List;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = RootConfig.class)
-public class HomePageServiceImplTest {
+public class ArticleServiceImplTest {
 
 
     @Autowired
-    private HomePageServiceImpl homePageService;
+    private ArticleService ArticleService;
 
     private final String  testContent = "title: 人为什么活着--迷茫与思考\n" +
             "date: 2016-03-25 22:52:45\n" +
@@ -87,7 +87,7 @@ public class HomePageServiceImplTest {
     public void testAiticleProcess()
     {
 
-        Pair<ArticleDescription,ArticleDetail> ret = homePageService.articleProcess(testContent);
+        Pair<ArticleDescription,ArticleDetail> ret = ArticleService.articleProcess(testContent);
 
         System.out.println(ret.getKey().getArticleName());
         System.out.println(ret.getKey().getTag());
@@ -103,31 +103,5 @@ public class HomePageServiceImplTest {
         System.out.println(ret.getValue().getHtmlContent());
 
     }
-
-
-    @Test
-    public void getArticleName() throws Exception {
-        System.out.println( homePageService.getArticleName("VPN" ) );
-        System.out.println( homePageService.getArticleName("YoutubeEnglishLearning" ) );
-    }
-
-    @Test
-    public void getDetail() throws Exception {
-        System.out.println( homePageService.getDetail( homePageService.getArticleName("VPN" ) ));
-    }
-
-    @Test
-    public void getArticleList() throws Exception {
-        List<ArticleDescription> articles = homePageService.getArticleList();
-
-        for(ArticleDescription ar :  articles)
-        {
-            System.out.println(ar.getArticleName() + " " +  ar.getPublishDate() + " " + ar.getTag());
-        }
-
-    }
-
-
-
 
 }

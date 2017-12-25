@@ -1,7 +1,7 @@
 package com.hblog.controller;
 
 import com.hblog.article.ArticleDetail;
-import com.hblog.service.HomePageServiceImpl;
+import com.hblog.service.PageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,8 +17,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/blog")
 public class BlogController {
 
+    /**
+     * object managed by Spring IOC,  single instance.
+     */
     @Autowired
-    private HomePageServiceImpl homePageService;
+    private PageService pageService;
 
 
     @RequestMapping(value = "/{publishDate}/{tags}",method = RequestMethod.GET)
@@ -27,8 +30,8 @@ public class BlogController {
                          @PathVariable("tags") String tags
                          )
     {
-        String name = homePageService.getArticleName(tags);
-        ArticleDetail article = homePageService.getDetail( name );
+        String name = pageService.getArticleName(tags);
+        ArticleDetail article = pageService.getDetail( name );
         model.addAttribute("blogDetail", article);
         return "detail";
     }
