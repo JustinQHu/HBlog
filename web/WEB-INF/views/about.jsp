@@ -29,6 +29,13 @@
     </li>
 </ol>
 
+<h4>2017.12.25 Version 0.3 Release:</h4>
+<ol>
+    <li>Add hope page.</li>
+    <li>Implement the cache refresh feature that will periodically loading changes of blog.</li>
+</ol>
+
+
 <h5>Contribute to <a href=" <s:message code="HBlogAddr"/> ">HBlog</a> . </h5>
 <h5>Contact Me:  <u><i><b> <s:message code="email" />  </b></i></u> </h5>
 </div>
