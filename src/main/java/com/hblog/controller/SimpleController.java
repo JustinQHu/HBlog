@@ -37,7 +37,14 @@ public class SimpleController {
         return "pubaccout";
     }
 
-
-
+    /**
+     * Display the page of hope tree
+     * @return
+     */
+    @RequestMapping(value = "/hope",  method = RequestMethod.GET)
+    public String getHopeTree()
+    {
+        return "hope";
+    }
 
 }

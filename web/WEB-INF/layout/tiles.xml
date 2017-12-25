@@ -31,5 +31,10 @@
                        value="/WEB-INF/views/pubaccout.jsp"/>
     </definition>
 
+    <definition name="hope" extends="base">
+        <put-attribute name="body"
+                       value="/WEB-INF/views/hope.jsp"/>
+    </definition>
+
 
 </tiles-definitions>

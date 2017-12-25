@@ -28,6 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#"> <s:message code="blog" /> <span class="sr-only">(current)</span></a></li>
+                <li><a href="/hope">  <s:message code="hopeTree" /> </a></li>
                 <li><a href=" <s:message code="weiboAddr" /> "   target="_blank"> <s:message code="weibo"/> </a></li>
                 <li><a href="/pubaccout"> <s:message code="wechatPublicAccount" /> </a> </li>
 
@@ -47,7 +48,6 @@
 
 
 <!--article list -->
-
 <div class="outer"  >
     <ul class="list-group">
         <c:forEach items="${articleDescriptionList}" var="articleDescription" >
