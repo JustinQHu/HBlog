@@ -7,7 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
-
 <iframe frameborder="0" scrolling="no" src=" <s:url value="/resources/dancing-tree/tree.html"/> " width="100%" height="100%"></iframe>
 
 

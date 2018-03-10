@@ -11,9 +11,9 @@
                        value="/WEB-INF/layout/footer.jsp"/>
     </definition>
 
-    <definition name ="home" extends="base">
+    <definition name ="bloghome" extends="base">
         <put-attribute name="body"
-                       value="/WEB-INF/views/home.jsp"/>
+                       value="/WEB-INF/views/bloghome.jsp"/>
     </definition>
 
     <definition name="detail" extends="base">

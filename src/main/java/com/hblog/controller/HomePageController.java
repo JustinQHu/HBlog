@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 @Controller
-@RequestMapping({"/", "/home"})
+@RequestMapping({"/"})
 public class HomePageController {
 
     /**
@@ -31,7 +31,8 @@ public class HomePageController {
     {
         List<ArticleDescription> articleDescriptionList = pageService.getArticleList();
         model.addAttribute("articleDescriptionList" ,articleDescriptionList);
-        return "home";
+        //use bloghome page as home page provisionally
+        return "bloghome";
     }
 
 }

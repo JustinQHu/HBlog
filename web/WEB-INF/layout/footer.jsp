@@ -1,4 +1,3 @@
-<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: alpha
@@ -6,10 +5,15 @@
   Time: 5:15 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="s" uri="http://www.springframework.org/tags" %>
+<%@ page import="java.time.Year" %>
+<%
+    int year = Year.now().getValue();
+%>
 <br/>
 <br/>
 <br/>
 <div class="wrap">
-    <b>Copyright &copy;2017 huqijun.org, All Rights Reserved</b>
+    <b>Copyright &copy;<%=year%> <s:message code="DomainName" /> , All Rights Reserved</b>
 </div>
 
